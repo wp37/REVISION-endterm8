@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Zalo
+Allow: /
+
+Sitemap: https://revision-endterm8.vercel.app/sitemap.xml
