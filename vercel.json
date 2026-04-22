@@ -19,7 +19,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!og-thumbnail\\.png|images\\.jpg|assets/).*)",
+      "source": "/((?!og-thumbnail\\.png|images\\.jpg|robots\\.txt|generate-og\\.html|assets/).*)",
       "destination": "/index.html"
     }
   ]
