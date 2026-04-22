@@ -5,12 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Global Success 8 - Đề cương Cuối kỳ 2 (2025-2026) | Thầy Võ Ngọc Tùng</title>
-  <meta name="description" content="Web ôn tập Tiếng Anh Cuối kỳ 2 lớp 8 Global Success: Đề cương Unit 7-11, Phonetics, Language, Reading, Writing. Quiz 30 câu random 20 câu có giải thích." />
-  
+  <meta name="description"
+    content="Web ôn tập Tiếng Anh Cuối kỳ 2 lớp 8 Global Success: Đề cương Unit 7-11, Phonetics, Language, Reading, Writing. Quiz 30 câu random 20 câu có giải thích." />
+
   <!-- Zalo / Facebook / Social Media Thumbnail -->
   <meta property="og:title" content="🌺 Ôn tập Cuối kỳ 2 – Tiếng Anh 8 (2025-2026)" />
-  <meta property="og:description" content="Đề cương chính thức Unit 7-11. Quiz Random 20 câu / 5 phút. Có giải thích chi tiết. Thầy Võ Ngọc Tùng – THCS Nguyễn Văn Bánh." />
-  <meta property="og:image" content="./og-thumbnail.png" />
+  <meta property="og:description"
+    content="Đề cương chính thức Unit 7-11. Quiz Random 20 câu / 5 phút. Có giải thích chi tiết. Thầy Võ Ngọc Tùng – THCS Nguyễn Văn Bánh." />
+  <meta property="og:url" content="https://revision-endterm8.vercel.app/" />
+  <meta property="og:image" content="https://revision-endterm8.vercel.app/og-thumbnail.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:type" content="website" />
@@ -42,8 +45,15 @@
     }
 
     @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
     }
 
     .animate-float {
@@ -51,9 +61,20 @@
     }
 
     @keyframes pulse-ring {
-      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(6, 95, 70, 0.7); }
-      70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(6, 95, 70, 0); }
-      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(6, 95, 70, 0); }
+      0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(6, 95, 70, 0.7);
+      }
+
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(6, 95, 70, 0);
+      }
+
+      100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(6, 95, 70, 0);
+      }
     }
 
     .pulse-btn {
@@ -61,10 +82,23 @@
     }
 
     /* Custom scrollbar for modal */
-    .custom-scrollbar::-webkit-scrollbar { width: 8px; }
-    .custom-scrollbar::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 4px; }
-    .custom-scrollbar::-webkit-scrollbar-thumb { background: #c7c7c7; border-radius: 4px; }
-    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #a8a8a8; }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 4px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #c7c7c7;
+      border-radius: 4px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #a8a8a8;
+    }
 
     /* ============================
        HOA PHƯỢNG - Falling Petals
@@ -88,31 +122,48 @@
     }
 
     /* Petal SVG shapes - different variations */
-    .petal-1 { width: 18px; height: 22px; }
-    .petal-2 { width: 14px; height: 18px; }
-    .petal-3 { width: 20px; height: 16px; }
+    .petal-1 {
+      width: 18px;
+      height: 22px;
+    }
+
+    .petal-2 {
+      width: 14px;
+      height: 18px;
+    }
+
+    .petal-3 {
+      width: 20px;
+      height: 16px;
+    }
 
     @keyframes petal-fall {
       0% {
         opacity: 0;
         transform: translateX(0) rotate(0deg) scale(0.8);
       }
+
       5% {
         opacity: 0.7;
       }
+
       25% {
         transform: translateX(30px) rotate(90deg) scale(1);
       }
+
       50% {
         opacity: 0.5;
         transform: translateX(-20px) rotate(180deg) scale(0.9);
       }
+
       75% {
         transform: translateX(40px) rotate(270deg) scale(0.85);
       }
+
       95% {
         opacity: 0.3;
       }
+
       100% {
         opacity: 0;
         transform: translateX(15px) rotate(360deg) scale(0.7);
@@ -145,8 +196,15 @@
     }
 
     @keyframes sway {
-      0%, 100% { transform: rotate(0deg); }
-      50% { transform: rotate(2deg); }
+
+      0%,
+      100% {
+        transform: rotate(0deg);
+      }
+
+      50% {
+        transform: rotate(2deg);
+      }
     }
 
     .sway {
@@ -158,7 +216,7 @@
 </head>
 
 <body class="bg-slate-50 text-slate-800 antialiased">
-  
+
   <!-- HOA PHƯỢNG - Falling Petals -->
   <div class="phuong-container" id="petalContainer"></div>
 
@@ -166,50 +224,52 @@
   <div class="phuong-branch sway">
     <svg viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Branch -->
-      <path d="M300 0 Q260 60, 220 100 Q180 140, 140 160 Q100 180, 60 200" stroke="#5d3a1a" stroke-width="3" fill="none" opacity="0.6"/>
-      <path d="M220 100 Q200 80, 180 90" stroke="#5d3a1a" stroke-width="2" fill="none" opacity="0.5"/>
-      <path d="M180 130 Q160 110, 150 120" stroke="#5d3a1a" stroke-width="2" fill="none" opacity="0.5"/>
+      <path d="M300 0 Q260 60, 220 100 Q180 140, 140 160 Q100 180, 60 200" stroke="#5d3a1a" stroke-width="3" fill="none"
+        opacity="0.6" />
+      <path d="M220 100 Q200 80, 180 90" stroke="#5d3a1a" stroke-width="2" fill="none" opacity="0.5" />
+      <path d="M180 130 Q160 110, 150 120" stroke="#5d3a1a" stroke-width="2" fill="none" opacity="0.5" />
       <!-- Leaves (compound) -->
-      <ellipse cx="170" cy="85" rx="12" ry="4" fill="#2d8540" opacity="0.6" transform="rotate(-30 170 85)"/>
-      <ellipse cx="160" cy="90" rx="12" ry="4" fill="#3a9e50" opacity="0.5" transform="rotate(-20 160 90)"/>
-      <ellipse cx="145" cy="115" rx="10" ry="3.5" fill="#2d8540" opacity="0.55" transform="rotate(-15 145 115)"/>
-      <ellipse cx="130" cy="130" rx="11" ry="4" fill="#3a9e50" opacity="0.5" transform="rotate(-10 130 130)"/>
-      <ellipse cx="100" cy="170" rx="10" ry="3.5" fill="#2d8540" opacity="0.5" transform="rotate(5 100 170)"/>
+      <ellipse cx="170" cy="85" rx="12" ry="4" fill="#2d8540" opacity="0.6" transform="rotate(-30 170 85)" />
+      <ellipse cx="160" cy="90" rx="12" ry="4" fill="#3a9e50" opacity="0.5" transform="rotate(-20 160 90)" />
+      <ellipse cx="145" cy="115" rx="10" ry="3.5" fill="#2d8540" opacity="0.55" transform="rotate(-15 145 115)" />
+      <ellipse cx="130" cy="130" rx="11" ry="4" fill="#3a9e50" opacity="0.5" transform="rotate(-10 130 130)" />
+      <ellipse cx="100" cy="170" rx="10" ry="3.5" fill="#2d8540" opacity="0.5" transform="rotate(5 100 170)" />
       <!-- Flowers cluster -->
-      <circle cx="230" cy="85" r="6" fill="#e63946" opacity="0.8"/>
-      <circle cx="240" cy="78" r="5" fill="#ff4d5a" opacity="0.7"/>
-      <circle cx="225" cy="75" r="4.5" fill="#e63946" opacity="0.75"/>
-      <circle cx="235" cy="92" r="5" fill="#ff6b6b" opacity="0.65"/>
-      <circle cx="245" cy="88" r="4" fill="#e63946" opacity="0.6"/>
+      <circle cx="230" cy="85" r="6" fill="#e63946" opacity="0.8" />
+      <circle cx="240" cy="78" r="5" fill="#ff4d5a" opacity="0.7" />
+      <circle cx="225" cy="75" r="4.5" fill="#e63946" opacity="0.75" />
+      <circle cx="235" cy="92" r="5" fill="#ff6b6b" opacity="0.65" />
+      <circle cx="245" cy="88" r="4" fill="#e63946" opacity="0.6" />
       <!-- Flowers cluster 2 -->
-      <circle cx="185" cy="120" r="5.5" fill="#e63946" opacity="0.75"/>
-      <circle cx="193" cy="115" r="4.5" fill="#ff4d5a" opacity="0.65"/>
-      <circle cx="178" cy="112" r="4" fill="#ff6b6b" opacity="0.6"/>
-      <circle cx="190" cy="128" r="4.5" fill="#e63946" opacity="0.7"/>
+      <circle cx="185" cy="120" r="5.5" fill="#e63946" opacity="0.75" />
+      <circle cx="193" cy="115" r="4.5" fill="#ff4d5a" opacity="0.65" />
+      <circle cx="178" cy="112" r="4" fill="#ff6b6b" opacity="0.6" />
+      <circle cx="190" cy="128" r="4.5" fill="#e63946" opacity="0.7" />
       <!-- Flowers cluster 3 -->
-      <circle cx="110" cy="180" r="5" fill="#e63946" opacity="0.7"/>
-      <circle cx="120" cy="175" r="4" fill="#ff4d5a" opacity="0.6"/>
-      <circle cx="105" cy="172" r="3.5" fill="#ff6b6b" opacity="0.55"/>
+      <circle cx="110" cy="180" r="5" fill="#e63946" opacity="0.7" />
+      <circle cx="120" cy="175" r="4" fill="#ff4d5a" opacity="0.6" />
+      <circle cx="105" cy="172" r="3.5" fill="#ff6b6b" opacity="0.55" />
       <!-- Stamens (nhụy hoa) -->
-      <line x1="230" y1="85" x2="234" y2="78" stroke="#ffb700" stroke-width="1" opacity="0.6"/>
-      <circle cx="234" cy="77" r="1.5" fill="#ffb700" opacity="0.7"/>
-      <line x1="185" y1="120" x2="189" y2="113" stroke="#ffb700" stroke-width="1" opacity="0.5"/>
-      <circle cx="189" cy="112" r="1.2" fill="#ffb700" opacity="0.6"/>
+      <line x1="230" y1="85" x2="234" y2="78" stroke="#ffb700" stroke-width="1" opacity="0.6" />
+      <circle cx="234" cy="77" r="1.5" fill="#ffb700" opacity="0.7" />
+      <line x1="185" y1="120" x2="189" y2="113" stroke="#ffb700" stroke-width="1" opacity="0.5" />
+      <circle cx="189" cy="112" r="1.2" fill="#ffb700" opacity="0.6" />
     </svg>
   </div>
 
   <!-- Phuong Branch decoration - bottom left corner -->
   <div class="phuong-branch-left">
     <svg viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M240 0 Q210 50, 180 80 Q150 110, 110 130 Q80 145, 50 160" stroke="#5d3a1a" stroke-width="2.5" fill="none" opacity="0.5"/>
-      <ellipse cx="150" cy="75" rx="10" ry="3.5" fill="#2d8540" opacity="0.5" transform="rotate(-25 150 75)"/>
-      <ellipse cx="120" cy="105" rx="9" ry="3" fill="#3a9e50" opacity="0.45" transform="rotate(-10 120 105)"/>
-      <circle cx="190" cy="65" r="5" fill="#e63946" opacity="0.7"/>
-      <circle cx="198" cy="58" r="4" fill="#ff4d5a" opacity="0.6"/>
-      <circle cx="160" cy="95" r="4.5" fill="#e63946" opacity="0.65"/>
-      <circle cx="168" cy="90" r="3.5" fill="#ff6b6b" opacity="0.55"/>
-      <circle cx="90" cy="140" r="4" fill="#e63946" opacity="0.6"/>
-      <circle cx="98" cy="135" r="3" fill="#ff4d5a" opacity="0.5"/>
+      <path d="M240 0 Q210 50, 180 80 Q150 110, 110 130 Q80 145, 50 160" stroke="#5d3a1a" stroke-width="2.5" fill="none"
+        opacity="0.5" />
+      <ellipse cx="150" cy="75" rx="10" ry="3.5" fill="#2d8540" opacity="0.5" transform="rotate(-25 150 75)" />
+      <ellipse cx="120" cy="105" rx="9" ry="3" fill="#3a9e50" opacity="0.45" transform="rotate(-10 120 105)" />
+      <circle cx="190" cy="65" r="5" fill="#e63946" opacity="0.7" />
+      <circle cx="198" cy="58" r="4" fill="#ff4d5a" opacity="0.6" />
+      <circle cx="160" cy="95" r="4.5" fill="#e63946" opacity="0.65" />
+      <circle cx="168" cy="90" r="3.5" fill="#ff6b6b" opacity="0.55" />
+      <circle cx="90" cy="140" r="4" fill="#e63946" opacity="0.6" />
+      <circle cx="98" cy="135" r="3" fill="#ff4d5a" opacity="0.5" />
     </svg>
   </div>
 
@@ -218,7 +278,7 @@
 
   <!-- Falling Petals Script -->
   <script>
-    (function() {
+    (function () {
       const container = document.getElementById('petalContainer');
       const PETAL_COUNT = 15;
       const colors = ['#e63946', '#ff4d5a', '#ff6b6b', '#ff8585', '#d63031', '#eb4d4b'];
@@ -241,14 +301,14 @@
         const color = colors[Math.floor(Math.random() * colors.length)];
         const type = Math.floor(Math.random() * 3);
         const size = 12 + Math.random() * 14;
-        
+
         petal.innerHTML = createPetalSVG(color, type);
         petal.style.left = Math.random() * 100 + 'vw';
         petal.style.width = size + 'px';
         petal.style.height = (size * 1.3) + 'px';
         petal.style.animationDuration = (8 + Math.random() * 12) + 's';
         petal.style.animationDelay = (Math.random() * 15) + 's';
-        
+
         container.appendChild(petal);
 
         // Remove and recreate after animation
