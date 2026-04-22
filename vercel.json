@@ -2,9 +2,24 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": null,
+  "headers": [
+    {
+      "source": "/og-thumbnail.png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!og-thumbnail\\.png|images\\.jpg|assets/).*)",
       "destination": "/index.html"
     }
   ]
